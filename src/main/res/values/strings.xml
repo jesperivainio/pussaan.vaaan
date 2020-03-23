@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">USSA</string>
+    <string name="nappi_tallenna">Tallenna</string>
+    <string name="kenttä_uusi_harjoitus">Uusi harjoitus</string>
+    <string name="otsikko_uusi_treeniohjelma">Uusi treeniohjelma</string>
+    <string name="kenttä_uusi_harjoitus2">Uusi harjoitus</string>
+    <string name="kenttä_uusi_harjoitus3">Uusi harjoitus</string>
+    <string name="kenttä_toistot">Toisto/sarjat</string>
+    <string name="kenttä_toistot2">Toisto/sarjat</string>
+    <string name="kenttä_toistot3">Toisto/sarjat</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="poisto">X</string>
+    <string name="lisääliike">+</string>
+</resources>

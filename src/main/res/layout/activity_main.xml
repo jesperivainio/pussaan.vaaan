@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="sans-serif"
+        android:hint="@string/kenttä_uusi_harjoitus3"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#36000000"
+        android:typeface="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot3"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot3"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot3"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:ems="6"
+        android:hint="@string/kenttä_toistot3"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/otsikko_uusi_treeniohjelma"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/buttonTallenna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nappi_tallenna"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <Button
+        android:id="@+id/buttonUusliike"
+        android:layout_width="122dp"
+        android:layout_height="71dp"
+        android:text="@string/lisääliike"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+
+    <Button
+        android:id="@+id/buttonDel2"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="@string/poisto"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+
+    <Button
+        android:id="@+id/buttonDel1"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="@string/poisto"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Button
+        android:id="@+id/buttonDel5"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="@string/poisto"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/buttonDel4"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="@string/poisto"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <Button
+        android:id="@+id/buttonDel3"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="@string/poisto"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <RatingBar
+        android:id="@+id/ratingFiilis"
+        android:layout_width="244dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/buttonFiilis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiilis 1-5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/textFiilis"
+        android:layout_width="62dp"
+        android:layout_height="24dp"
+        android:text="Fiilis on: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
