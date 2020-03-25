@@ -42,6 +42,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        super .onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+
+        final RatingBar ratingFiilis = (RatingBar) findViewById(R.id.ratingFiilis);
+        Button buttonFiilis = (Button) findViewById(R.id.buttonFiilis);
+        final TextView textFiilis = (TextView) findViewById(R.id.textFiilis);
+
+        buttonFiilis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textFiilis.setText("Fiilis on: " + ratingFiilis.getRating());
+            }
+        });
+
+
         buttonTallenna=findViewById(R.id.buttonTallenna);
         buttonTallenna.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -189,27 +206,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Ratingbar touhu tässä. :)
-    @Override
-    protected void onCreate (Bundle savedInstanceState) {
-        super .onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
 
-
-        final RatingBar ratingFiilis = (RatingBar) findViewById(R.id.ratingFiilis)
-        Button buttonFiilis = (Button) findViewById(R.id.buttonFiilis)
-        final TextView textFiilis = (TextView) findViewById(R.id.textFiilis)
-
-        buttonFiilis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                textFiilis.setText("Fiilis on: " + ratingFiilis.getRating());
-            }
-        })
-
-
-
-    }
 
 
     //Määritetään tekstikentät jotka siirtyy main activitystä activityyn 2 painamalla nappia "Tallenna"
