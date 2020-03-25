@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //Ratingbar touhu tässä.
+    //Ratingbar touhu tässä. :)
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super .onCreate(savedInstanceState);
