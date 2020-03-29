@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView Liike4=(TextView)findViewById(R.id.editText8);
                 TextView Liike5=(TextView)findViewById(R.id.editText9);
 
-        //for loop muuttujan i aavulla määritetään mitä nappi "buttonUusliike" tekee
+        //for loop muuttujan i aaavulla määritetään mitä nappi "buttonUusliike" tekee
 
                 for (int i=0; i<6;i++) {
                     if (!Liike1.isShown() && !Sarjat1.isShown() && !Del1.isShown() && i == (1)) {

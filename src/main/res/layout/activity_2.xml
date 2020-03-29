@@ -141,7 +141,7 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="124dp"
+        android:layout_width="125dp"
         android:layout_height="38dp"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,7 +150,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.454" />
- 
+
     <RatingBar
         android:id="@+id/ratingFiilis"
         android:layout_width="244dp"

@@ -16,7 +16,7 @@ public class activity_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
-        //rating baaria
+        //rating baariaa
 
         final RatingBar ratingFiilis = (RatingBar) findViewById(R.id.ratingFiilis);
         Button buttonFiilis = (Button) findViewById(R.id.buttonFiilis);
