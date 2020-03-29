@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 public class activity_2 extends AppCompatActivity {
@@ -12,6 +15,21 @@ public class activity_2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
+
+        //rating baari
+
+        final RatingBar ratingFiilis = (RatingBar) findViewById(R.id.ratingFiilis);
+        Button buttonFiilis = (Button) findViewById(R.id.buttonFiilis);
+        final TextView textFiilis = (TextView) findViewById(R.id.textFiilis);
+
+        buttonFiilis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textFiilis.setText("Fiilis on: " + ratingFiilis.getRating());
+            }
+        });
+
+
 
         //Tässä jokainen tekstikenttä main activitystä
 
